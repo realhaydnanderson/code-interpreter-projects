@@ -20,7 +20,7 @@ The `is_decryption_successful` function checks whether the provided plaintext co
 
 The `dictionary_attack` function conducts a dictionary attack on an encrypted file. It takes the paths to the encrypted file and a dictionary file as input. The function reads the contents of the encrypted file, retrieves passwords from the dictionary file, and attempts decryption using each password. If a successful decryption occurs, the corresponding password is returned.
 
-##### Usage
+#### Usage
 
 In the script, a plaintext message is encrypted and saved to a file. The `dictionary_attack` function is then utilized to perform a password recovery by trying passwords from a dictionary file. If a successful password is found, it is printed as the output.
 
